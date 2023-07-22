@@ -6,6 +6,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{2F20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{096EB79D-FA6B-40DB-A7A0-9468ECA20861}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4044569E-6AF3-4852-A686-7A387AF0D134}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		docker-compose.override.yml = docker-compose.override.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{D340427C-D7EA-4BB2-B95D-4C8FE872BEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{0AF80116-8A75-4D29-8A2B-2422BD6F6F45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,11 +24,17 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2F206D3A-73F0-4B4E-8DDB-11312BBA4509} = {F6DBADDB-D6D4-489B-9F5B-86B0EFFCE8DD}
 		{096EB79D-FA6B-40DB-A7A0-9468ECA20861} = {2F206D3A-73F0-4B4E-8DDB-11312BBA4509}
+		{D340427C-D7EA-4BB2-B95D-4C8FE872BEE0} = {F6DBADDB-D6D4-489B-9F5B-86B0EFFCE8DD}
+		{0AF80116-8A75-4D29-8A2B-2422BD6F6F45} = {D340427C-D7EA-4BB2-B95D-4C8FE872BEE0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{096EB79D-FA6B-40DB-A7A0-9468ECA20861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{096EB79D-FA6B-40DB-A7A0-9468ECA20861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096EB79D-FA6B-40DB-A7A0-9468ECA20861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096EB79D-FA6B-40DB-A7A0-9468ECA20861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF80116-8A75-4D29-8A2B-2422BD6F6F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF80116-8A75-4D29-8A2B-2422BD6F6F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF80116-8A75-4D29-8A2B-2422BD6F6F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF80116-8A75-4D29-8A2B-2422BD6F6F45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
